@@ -1,0 +1,24 @@
+{
+  "name": "mobile",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@expo/metro-runtime": "~58.0.15",
+    "@expo/vector-icons": "^15.1.1",
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "axios": "^1.20.0",
+    "expo": "~58.0.19",
+    "expo-status-bar": "~58.0.4",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-native": "0.88.0",
+    "react-native-web": "^0.21.4"
+  },
+  "scripts": {
+    "start": "node -r ./polyfill-node20.js ./node_modules/expo/node_modules/@expo/cli/bin/cli.js start",
+    "android": "node -r ./polyfill-node20.js ./node_modules/expo/node_modules/@expo/cli/bin/cli.js start --android",
+    "ios": "node -r ./polyfill-node20.js ./node_modules/expo/node_modules/@expo/cli/bin/cli.js start --ios",
+    "web": "node -r ./polyfill-node20.js ./node_modules/expo/node_modules/@expo/cli/bin/cli.js start --web"
+  },
+  "private": true
+}
